@@ -84,7 +84,7 @@ class _HomePageState extends State<HomePage> {
                     style: const TextStyle(fontWeight: FontWeight.bold),
                   ),
                   subtitle: Text(document['content'] ?? ''),
-
+  
                   // Tombol hapus
                   trailing: IconButton(
                     icon: const Icon(Icons.delete, color: Colors.red),
